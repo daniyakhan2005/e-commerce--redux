@@ -1,6 +1,11 @@
 import React from 'react'
 import { Categories } from '../assets/mockData'
 import Hero from '../assets/Images/hero.avif'
+import InfoSection from '../components/infoSection'
+import CategorySection from '../components/CategorySection'
+
+
+
 
 const Home = () => {
   return (
@@ -45,6 +50,9 @@ const Home = () => {
 
 
       </div>
+     <InfoSection/>
+     <CategorySection/>
+
     </div>
 
 
